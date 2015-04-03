@@ -6244,6 +6244,7 @@ GameObject:
   - 4: {fileID: 1035433440}
   - 95: {fileID: 1035433441}
   - 114: {fileID: 1035433439}
+  - 114: {fileID: 1035433442}
   m_Layer: 0
   m_Name: "\u30B5\u30C3\u30C1\u30FC"
   m_TagString: Untagged
@@ -6391,7 +6392,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 951264943fc35437094394e6ceb06b3f, type: 3}
   m_PrefabInternal: {fileID: 1193162744}
   m_GameObject: {fileID: 1035433438}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: -1.62920685e-07}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: .600000024, y: .600000024, z: .600000024}
   m_Children:
@@ -6415,6 +6416,18 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &1035433442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1035433438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3617b1f7168f246c983555f45867e34d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chaseTarget: {fileID: 1091989140}
 --- !u!1 &1040057191
 GameObject:
   m_ObjectHideFlags: 0
@@ -7394,7 +7407,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 951264943fc35437094394e6ceb06b3f, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 951264943fc35437094394e6ceb06b3f, type: 3}
       propertyPath: m_LocalRotation.z
@@ -7402,7 +7415,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 951264943fc35437094394e6ceb06b3f, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -1.62920685e-07
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 951264943fc35437094394e6ceb06b3f, type: 3}
       propertyPath: m_RootOrder
