@@ -21,7 +21,8 @@ namespace UnitySampleAssets.Characters.ThirdPerson
         private bool jump;// the world-relative desired move direction, calculated from the camForward and user input.
 
         // Use this for initialization
-        private void Start()
+        //private void Start()
+		protected void Start()
         {
             // get the transform of the main camera
             if (Camera.main != null)
@@ -39,7 +40,8 @@ namespace UnitySampleAssets.Characters.ThirdPerson
             character = GetComponent<ThirdPersonCharacter>();
         }
 
-        void Update()
+        //void Update()
+		protected void Update()
         {
             if(!jump)
                 jump = CrossPlatformInputManager.GetButtonDown("Jump");

@@ -55,7 +55,8 @@ namespace UnitySampleAssets.Characters.ThirdPerson
         public float lookWeight;
 
         // Use this for initialization
-        private void Start()
+        //private void Start()
+		protected void Start()
         {
             animator = GetComponentInChildren<Animator>();
             capsule = collider as CapsuleCollider;
