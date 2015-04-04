@@ -556,6 +556,26 @@ BlendTree:
   m_MaxThreshold: 1
   m_UseAutomaticThresholds: 1
   m_BlendType: 0
+--- !u!206 &20662298
+BlendTree:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Blend Tree
+  m_Childs:
+  - m_Motion: {fileID: 7400022, guid: e8397bfde2758f942a04edaaf7ad57ec, type: 3}
+    m_Threshold: 0
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_IsAnim: 1
+    m_Mirror: 0
+  m_BlendParameter: Forward
+  m_BlendParameterY: Forward
+  m_MinThreshold: 0
+  m_MaxThreshold: 1
+  m_UseAutomaticThresholds: 1
+  m_BlendType: 0
 --- !u!206 &20683409
 BlendTree:
   m_ObjectHideFlags: 3
@@ -618,7 +638,7 @@ Transition:
   m_Name: 
   m_SrcState: {fileID: 110270242}
   m_DstState: {fileID: 110298501}
-  m_TransitionDuration: .100000001
+  m_TransitionDuration: 10.7718201
   m_TransitionOffset: 0
   m_Conditions:
   - m_ConditionMode: 2
@@ -662,8 +682,8 @@ Transition:
   m_Name: 
   m_SrcState: {fileID: 110298501}
   m_DstState: {fileID: 110270242}
-  m_TransitionDuration: .243138015
-  m_TransitionOffset: 0
+  m_TransitionDuration: .261773765
+  m_TransitionOffset: 1
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: Beam
@@ -784,7 +804,7 @@ State:
   - {fileID: 7400022, guid: e8397bfde2758f942a04edaaf7ad57ec, type: 3}
   m_ParentStateMachine: {fileID: 110700000}
   m_Position: {x: 840, y: 96, z: 0}
-  m_IKOnFeet: 0
+  m_IKOnFeet: 1
   m_Mirror: 0
   m_Tag: 
 --- !u!1102 &110276412
