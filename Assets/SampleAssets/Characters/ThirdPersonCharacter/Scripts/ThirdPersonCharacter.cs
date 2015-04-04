@@ -40,7 +40,8 @@ namespace UnitySampleAssets.Characters.ThirdPerson
         private bool onGround; // Is the character on the ground
         private Vector3 currentLookPos; // The current position where the character is looking
         private float originalHeight; // Used for tracking the original height of the characters capsule collider
-        private Animator animator; // The animator for the character
+        //private Animator animator; // The animator for the character
+		protected Animator animator; // The animator for the character
         private float lastAirTime; // USed for checking when the character was last in the air for controlling jumps
         private CapsuleCollider capsule; // The collider for the character
         private const float half = 0.5f; // whats it says, it's a constant for a half
@@ -315,7 +316,8 @@ namespace UnitySampleAssets.Characters.ThirdPerson
 
         }
 
-        private void UpdateAnimator()
+        //private void UpdateAnimator()
+		protected virtual void UpdateAnimator()
         {
             // Here we tell the animator what to do based on the current states and inputs.
 

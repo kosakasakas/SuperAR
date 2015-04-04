@@ -13,10 +13,12 @@ public class CustomThirdPersonUserControl : ThirdPersonUserControl {
 	
 	// Update is called once per frame
 	void Update () {
-		base.Update ();
-
 		if (Input.GetKey (KeyCode.Return)) {
-			((CustomThirdPersonCharacter)character).MegaBeam();
+			((CustomThirdPersonCharacter)character).MegaBeamStart ();
+		} else {
+			((CustomThirdPersonCharacter)character).MegaBeamStop ();
 		}
+
+		base.Update ();
 	}
 }
