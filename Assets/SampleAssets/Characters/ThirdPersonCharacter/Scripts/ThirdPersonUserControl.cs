@@ -13,7 +13,8 @@ namespace UnitySampleAssets.Characters.ThirdPerson
         public bool lookInCameraDirection = true;// should the character be looking in the same direction that the camera is facing
 
         private Vector3 lookPos; // The position that the character should be looking towards
-        private ThirdPersonCharacter character; // A reference to the ThirdPersonCharacter on the object
+		//private ThirdPersonCharacter character; // A reference to the ThirdPersonCharacter on the object
+		protected ThirdPersonCharacter character; // A reference to the ThirdPersonCharacter on the object
         private Transform cam; // A reference to the main camera in the scenes transform
         private Vector3 camForward; // The current forward direction of the camera
 

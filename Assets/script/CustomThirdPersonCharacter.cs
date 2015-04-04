@@ -9,4 +9,7 @@ public class CustomThirdPersonCharacter : ThirdPersonCharacter {
 		base.Start ();
 	}
 
+	public void MegaBeam() {
+		 print("launch mega beam!!");
+	}
 }
