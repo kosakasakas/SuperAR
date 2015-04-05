@@ -682,8 +682,8 @@ Transition:
   m_Name: 
   m_SrcState: {fileID: 110298501}
   m_DstState: {fileID: 110270242}
-  m_TransitionDuration: .261773765
-  m_TransitionOffset: 1
+  m_TransitionDuration: .160177231
+  m_TransitionOffset: 0
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: Beam
