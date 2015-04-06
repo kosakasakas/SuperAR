@@ -23182,6 +23182,7 @@ MonoBehaviour:
   lookBlendTime: 0
   lookWeight: 0
   beamTarget: {fileID: 1035433438}
+  beamParticle: {fileID: 1687562248}
 --- !u!54 &1863637459
 Rigidbody:
   m_ObjectHideFlags: 0
