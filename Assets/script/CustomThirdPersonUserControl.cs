@@ -13,13 +13,21 @@ public class CustomThirdPersonUserControl : ThirdPersonUserControl {
 	
 	// Update is called once per frame
 	void Update () {
+		base.Update ();
+		// launch mega beam.
 		if (!GetAnyDirectionKey() && Input.GetKey (KeyCode.Return)) {
 			((CustomThirdPersonCharacter)character).MegaBeamStart ();
 		} else {
 			((CustomThirdPersonCharacter)character).MegaBeamStop ();
 		}
 
-		base.Update ();
+		// launch wave hand.
+		if (!GetAnyDirectionKey() && Input.GetKey (KeyCode.RightShift)) {
+			((CustomThirdPersonCharacter)character).WaveHandStart();
+		} else {
+			((CustomThirdPersonCharacter)character).WaveHandStop();
+		}
+
 	}
 
 	bool GetAnyDirectionKey () {
