@@ -11204,8 +11204,8 @@ MonoBehaviour:
   Lux_HDR_Scale: 6
   isLinear: 0
   LuxLighting: 0
-  Lux_IBL_DiffuseExposure: .5
-  Lux_IBL_SpecularExposure: .00999999978
+  Lux_IBL_DiffuseExposure: .800000012
+  Lux_IBL_SpecularExposure: .0199999996
   diffuseCube: {fileID: 8900000, guid: 6002d5c50fdc440aab4ff5a828e42ef3, type: 3}
   diffuseIsHDR: 0
   specularCube: {fileID: 8900000, guid: d6feaa44914a443a6beda7e8260f6fde, type: 3}
@@ -17587,6 +17587,10 @@ Prefab:
     - target: {fileID: 400190, guid: 951264943fc35437094394e6ceb06b3f, type: 3}
       propertyPath: m_RootOrder
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 100194, guid: 951264943fc35437094394e6ceb06b3f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 951264943fc35437094394e6ceb06b3f, type: 3}
