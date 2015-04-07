@@ -15813,7 +15813,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1035433439
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17433,7 +17433,7 @@ Prefab:
       objectReference: {fileID: 9100000, guid: ee2fd28c414234dc38176e4ab4fa7e1d, type: 2}
     - target: {fileID: 100000, guid: 951264943fc35437094394e6ceb06b3f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 951264943fc35437094394e6ceb06b3f, type: 3}
       propertyPath: m_LocalScale.y
@@ -28982,6 +28982,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkByDefault: 0
   lookInCameraDirection: 1
+  beamTarget: {fileID: 1035433438}
 --- !u!114 &1863637458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29023,7 +29024,6 @@ MonoBehaviour:
     m_Bits: 4294967295
   lookBlendTime: 0
   lookWeight: 0
-  beamTarget: {fileID: 1035433438}
   beamParticle: {fileID: 1687562248}
 --- !u!54 &1863637459
 Rigidbody:
