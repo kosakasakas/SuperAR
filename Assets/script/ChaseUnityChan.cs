@@ -12,6 +12,9 @@ public class ChaseUnityChan : MonoBehaviour {
 	private Animator animator;
 	private int damagingId;
 
+	private int count = 0;
+	private int threshold = 3;
+
 	// Use this for initialization
 	void Start () {
 		targetTransform = chaseTarget.transform;
@@ -22,7 +25,7 @@ public class ChaseUnityChan : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (animator.GetCurrentAnimatorStateInfo (0).IsName ("Chase")) {
+		if (CanChase() && animator.GetCurrentAnimatorStateInfo (0).IsName ("Chase")) {
 			transform.rotation = Quaternion.Slerp (transform.rotation, Quaternion.LookRotation (targetTransform.position - transform.position), 0.07f);
 			transform.position += transform.forward * speed;
 		}
@@ -32,5 +35,13 @@ public class ChaseUnityChan : MonoBehaviour {
 		} else {
 			animator.SetBool (damagingId, false);
 		}
+
+		if (Input.GetKeyDown (KeyCode.RightShift) && count < threshold) {
+			count++;
+		}
+	}
+
+	bool CanChase() {
+		return (count >= threshold);
 	}
 }
