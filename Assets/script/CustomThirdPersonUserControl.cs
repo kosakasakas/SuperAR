@@ -30,6 +30,7 @@ public class CustomThirdPersonUserControl : ThirdPersonUserControl {
 
 		} else {
 			((CustomThirdPersonCharacter)character).MegaBeamStop ();
+			base.Update ();
 		}
 
 		// launch wave hand.
@@ -45,9 +46,9 @@ public class CustomThirdPersonUserControl : ThirdPersonUserControl {
 
 		} else {
 			((CustomThirdPersonCharacter)character).WaveHandStop();
+			base.Update ();
 		}
 
-		base.Update ();
 	}
 	
 	bool GetAnyDirectionKey () {
