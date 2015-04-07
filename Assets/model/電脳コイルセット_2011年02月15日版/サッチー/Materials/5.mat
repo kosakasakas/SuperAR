@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: 5
-  m_Shader: {fileID: 4800000, guid: a65994cb353789f49bdc50b95035f956, type: 3}
+  m_Shader: {fileID: 4800000, guid: b7bf0bc091255485d8b5eff4eaa88803, type: 3}
   m_ShaderKeywords:
   - UNITY4SUPPORT_ON
   - AMB2DIFF_ON
@@ -28,6 +28,34 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffCubeIBL
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecCubeIBL
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecTex
+        second:
+          m_Texture: {fileID: 2800000, guid: bfc96f46cce79bb43b1edfd545be458d, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
           name: _ToonTex
         second:
           m_Texture: {fileID: 2800000, guid: 5a5602675af8c7f4ba3dbebfff2c43b2, type: 3}
@@ -40,11 +68,22 @@ Material:
           m_Texture: {fileID: 8900000, guid: b192e90377d2f4d1ebd04060cb0bf177, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _AO
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
     m_Floats:
       data:
         first:
           name: _Shininess
         second: 30
+      data:
+        first:
+          name: _EdgeSize
+        second: .00100000005
       data:
         first:
           name: _ShadowLum
@@ -60,10 +99,6 @@ Material:
       data:
         first:
           name: _EdgeScale
-        second: .00100000005
-      data:
-        first:
-          name: _EdgeSize
         second: .00100000005
       data:
         first:
@@ -92,16 +127,16 @@ Material:
         second: {r: .824609995, g: .824609995, b: .824609995, a: 1}
       data:
         first:
+          name: _EdgeColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
           name: _Specular
         second: {r: .120000005, g: .120000005, b: .120000005, a: 0}
       data:
         first:
           name: _Ambient
         second: {r: .478471011, g: .478471011, b: .478471011, a: 0}
-      data:
-        first:
-          name: _EdgeColor
-        second: {r: 0, g: 0, b: 0, a: 1}
       data:
         first:
           name: _Emissive
