@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: diff
-  m_Shader: {fileID: 4800000, guid: 930904ac2bd1c475db79130fce9b1e6a, type: 3}
+  m_Shader: {fileID: 4800000, guid: 00d6c8103de524e26bdcb2e301a35f4f, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
   m_SavedProperties:
@@ -41,7 +41,11 @@ Material:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
-    m_Floats: {}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
     m_Colors:
       data:
         first:
