@@ -15,7 +15,7 @@ Material:
   - SELFSHADOW_OFF
   - EMISSIVE_OFF
   - SPHEREMAP_OFF
-  m_CustomRenderQueue: 2009
+  m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:

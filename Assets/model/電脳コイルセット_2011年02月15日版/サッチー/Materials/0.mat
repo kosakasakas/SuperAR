@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: 0
-  m_Shader: {fileID: 4800000, guid: b7bf0bc091255485d8b5eff4eaa88803, type: 3}
+  m_Shader: {fileID: 4800000, guid: ad8223b354fde4242bd807a2af397a6e, type: 3}
   m_ShaderKeywords:
   - UNITY4SUPPORT_ON
   - AMB2DIFF_ON
