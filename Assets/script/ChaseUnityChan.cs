@@ -7,7 +7,7 @@ public class ChaseUnityChan : MonoBehaviour {
 	public GameObject chaseTarget = null;
 	private Transform targetTransform;
 	private Vector3 vec;
-	private float speed = 0.03f;
+	private float speed = 0.015f;
 
 	private Animator animator;
 	private int damagingId;

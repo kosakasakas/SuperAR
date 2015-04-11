@@ -6,6 +6,7 @@ using UnitySampleAssets.Characters.ThirdPerson;
 public class CustomThirdPersonUserControl : ThirdPersonUserControl {
 	
 	public GameObject beamTarget = null;
+	public GameObject waveHandTarget = null;
 
 	// Use this for initialization
 	void Start () {
@@ -37,7 +38,7 @@ public class CustomThirdPersonUserControl : ThirdPersonUserControl {
 		if (!GetAnyDirectionKey() && Input.GetKey (KeyCode.RightShift)) {
 
 			// update thirdParson direction
-			Vector3 cameraPos = Camera.main.transform.position;
+			Vector3 cameraPos = waveHandTarget.transform.position;
 			Vector3 targetPos = new Vector3(cameraPos.x, 0.0f, cameraPos.z);
 			transform.rotation = Quaternion.Slerp (transform.rotation, Quaternion.LookRotation (targetPos - transform.position), 0.07f);
 
