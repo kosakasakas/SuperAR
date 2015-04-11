@@ -16,8 +16,8 @@ public class ClippingController : MonoBehaviour {
 			return;
 		}
 
-		float distance = Vector3.Distance (Camera.main.transform.position, farClipTarget.transform.position);
-		Camera.main.farClipPlane = distance + 1.2f;
+		float distance = Vector3.Distance (transform.position, farClipTarget.transform.position);
+		Camera.main.farClipPlane = distance + 2.5f;
 	}
 	
 }
