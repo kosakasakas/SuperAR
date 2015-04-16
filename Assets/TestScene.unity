@@ -5071,6 +5071,60 @@ MonoBehaviour:
   boneID: 22
   ikEnabled: 0
   ikWeight: 1
+--- !u!1001 &2113839216
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400002, guid: c3b16df5c21a64b32a275796b58f2161, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: c3b16df5c21a64b32a275796b58f2161, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: c3b16df5c21a64b32a275796b58f2161, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: c3b16df5c21a64b32a275796b58f2161, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: c3b16df5c21a64b32a275796b58f2161, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: c3b16df5c21a64b32a275796b58f2161, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: c3b16df5c21a64b32a275796b58f2161, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: c3b16df5c21a64b32a275796b58f2161, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: c3b16df5c21a64b32a275796b58f2161, type: 3}
+      propertyPath: m_LocalScale.x
+      value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: c3b16df5c21a64b32a275796b58f2161, type: 3}
+      propertyPath: m_LocalScale.y
+      value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: c3b16df5c21a64b32a275796b58f2161, type: 3}
+      propertyPath: m_LocalScale.z
+      value: .5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: c3b16df5c21a64b32a275796b58f2161, type: 3}
+  m_IsPrefabParent: 0
 --- !u!1 &2128070209 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100268, guid: 42ea6574ae7dd496a87a7527811fca25, type: 3}
