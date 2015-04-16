@@ -7,10 +7,10 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: 8.body_green
-  m_Shader: {fileID: 4800000, guid: 52c4243760885f14aa1eac817b753de4, type: 3}
+  m_Shader: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: AMB2DIFF_ON EMISSIVE_OFF SELFSHADOW_ON SPECULAR_ON SPHEREMAP_ADD
   m_LightmapFlags: 5
-  m_CustomRenderQueue: 2010
+  m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
@@ -18,7 +18,7 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: b50ab69a5dd394d90b590ec8fe128cc4, type: 3}
+          m_Texture: {fileID: 2800000, guid: cd1cbd7fb896f417ba5c60610a07b6b6, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -91,6 +91,13 @@ Material:
           m_Texture: {fileID: 8900000, guid: b1769e5c3e85343dcbe44c03252c7458, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecGlossMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
     m_Floats:
       data:
         first:
@@ -119,7 +126,7 @@ Material:
       data:
         first:
           name: _Glossiness
-        second: .5
+        second: 1
       data:
         first:
           name: _BumpScale
@@ -150,6 +157,10 @@ Material:
         second: 0
       data:
         first:
+          name: _EdgeSize
+        second: .000600000028
+      data:
+        first:
           name: _ShadowLum
         second: 1.5
       data:
@@ -164,10 +175,6 @@ Material:
         first:
           name: _EdgeScale
         second: .00100000005
-      data:
-        first:
-          name: _EdgeSize
-        second: .000600000028
       data:
         first:
           name: _SphereMode
@@ -192,15 +199,23 @@ Material:
       data:
         first:
           name: _EmissionColor
-        second: {r: 0, g: 0, b: 0, a: 1}
+        second: {r: 0, g: 0, b: 0, a: 0}
       data:
         first:
           name: _Color
         second: {r: .400000006, g: .899999976, b: .600000024, a: 1}
       data:
         first:
+          name: _SpecColor
+        second: {r: .200000003, g: .200000003, b: .200000003, a: 1}
+      data:
+        first:
           name: _EmissionColorUI
         second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _EdgeColor
+        second: {r: 0, g: .5, b: .699999988, a: .699999988}
       data:
         first:
           name: _Specular
@@ -209,10 +224,6 @@ Material:
         first:
           name: _Ambient
         second: {r: .400000006, g: .5, b: .5, a: 0}
-      data:
-        first:
-          name: _EdgeColor
-        second: {r: 0, g: .5, b: .699999988, a: .699999988}
       data:
         first:
           name: _Emissive

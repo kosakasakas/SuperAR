@@ -10,7 +10,7 @@ Material:
   m_Shader: {fileID: 4800000, guid: e9d94c7bf0c5e13498b997e5580ddc18, type: 3}
   m_ShaderKeywords: AMB2DIFF_ON EMISSIVE_OFF SELFSHADOW_ON SPECULAR_ON SPHEREMAP_ADD
   m_LightmapFlags: 5
-  m_CustomRenderQueue: 2012
+  m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
@@ -119,7 +119,7 @@ Material:
       data:
         first:
           name: _Glossiness
-        second: .5
+        second: 0
       data:
         first:
           name: _BumpScale
@@ -150,6 +150,10 @@ Material:
         second: 0
       data:
         first:
+          name: _EdgeSize
+        second: .000600000028
+      data:
+        first:
           name: _ShadowLum
         second: 1.5
       data:
@@ -164,10 +168,6 @@ Material:
         first:
           name: _EdgeScale
         second: .00100000005
-      data:
-        first:
-          name: _EdgeSize
-        second: .000600000028
       data:
         first:
           name: _SphereMode
@@ -192,7 +192,7 @@ Material:
       data:
         first:
           name: _EmissionColor
-        second: {r: 0, g: 0, b: 0, a: 1}
+        second: {r: 0, g: 0, b: 0, a: 0}
       data:
         first:
           name: _Color
@@ -203,16 +203,16 @@ Material:
         second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
+          name: _EdgeColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
           name: _Specular
         second: {r: 0, g: 0, b: 0, a: 0}
       data:
         first:
           name: _Ambient
         second: {r: .5, g: .5, b: .5, a: 0}
-      data:
-        first:
-          name: _EdgeColor
-        second: {r: 0, g: 0, b: 0, a: 1}
       data:
         first:
           name: _Emissive
