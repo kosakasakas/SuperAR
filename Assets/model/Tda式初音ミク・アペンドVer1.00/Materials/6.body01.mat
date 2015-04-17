@@ -207,7 +207,7 @@ Material:
       data:
         first:
           name: _SpecColor
-        second: {r: .198529422, g: .198529422, b: .198529422, a: 1}
+        second: {r: .308823526, g: .308823526, b: .308823526, a: 1}
       data:
         first:
           name: _EmissionColorUI

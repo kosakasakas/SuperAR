@@ -6,9 +6,9 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: 7.body_pink
-  m_Shader: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: AMB2DIFF_ON EMISSIVE_OFF SELFSHADOW_ON SPECULAR_ON SPHEREMAP_ADD
+  m_Name: diffuse
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
   m_LightmapFlags: 5
   m_CustomRenderQueue: -1
   m_SavedProperties:
@@ -18,7 +18,7 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: cd1cbd7fb896f417ba5c60610a07b6b6, type: 3}
+          m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -79,20 +79,6 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _ToonTex
-        second:
-          m_Texture: {fileID: 2800000, guid: b66bf1e7f7a7d4e3a9de936a2f891285, type: 3}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _SphereCube
-        second:
-          m_Texture: {fileID: 8900000, guid: b1769e5c3e85343dcbe44c03252c7458, type: 3}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
           name: _SpecGlossMap
         second:
           m_Texture: {fileID: 0}
@@ -103,10 +89,6 @@ Material:
         first:
           name: _Cutoff
         second: .5
-      data:
-        first:
-          name: _Shininess
-        second: 115
       data:
         first:
           name: _SrcBlend
@@ -126,7 +108,7 @@ Material:
       data:
         first:
           name: _Glossiness
-        second: 1
+        second: .200000003
       data:
         first:
           name: _BumpScale
@@ -154,47 +136,7 @@ Material:
       data:
         first:
           name: _Metallic
-        second: 0
-      data:
-        first:
-          name: _EdgeSize
-        second: .000600000028
-      data:
-        first:
-          name: _ShadowLum
-        second: 1.5
-      data:
-        first:
-          name: _AmbientRate
-        second: 1
-      data:
-        first:
-          name: _AmbientToDiffuse
-        second: 5
-      data:
-        first:
-          name: _EdgeScale
-        second: .00100000005
-      data:
-        first:
-          name: _SphereMode
-        second: 2
-      data:
-        first:
-          name: _ALPower
-        second: 0
-      data:
-        first:
-          name: _AddLightToonCen
-        second: -.100000001
-      data:
-        first:
-          name: _AddLightToonMin
-        second: .5
-      data:
-        first:
-          name: _Revision
-        second: 2
+        second: .200000003
     m_Colors:
       data:
         first:
@@ -203,28 +145,12 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: .699999988, g: .180000007, b: .430000007, a: 1}
+        second: {r: .647058845, g: .647058845, b: .647058845, a: 1}
       data:
         first:
           name: _SpecColor
-        second: {r: .676470578, g: .676470578, b: .676470578, a: 1}
+        second: {r: .279411793, g: .27735728, b: .27735728, a: 1}
       data:
         first:
           name: _EmissionColorUI
         second: {r: 1, g: 1, b: 1, a: 1}
-      data:
-        first:
-          name: _EdgeColor
-        second: {r: .699999988, g: 0, b: .200000003, a: .699999988}
-      data:
-        first:
-          name: _Specular
-        second: {r: 0, g: 0, b: 0, a: 0}
-      data:
-        first:
-          name: _Ambient
-        second: {r: .300000012, g: .200000003, b: .300000012, a: 0}
-      data:
-        first:
-          name: _Emissive
-        second: {r: 0, g: 0, b: 0, a: 0}

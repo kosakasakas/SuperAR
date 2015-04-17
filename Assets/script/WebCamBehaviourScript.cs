@@ -7,6 +7,7 @@ public class WebCamBehaviourScript : MonoBehaviour
 	public int Height = 1080;
 	public int FPS = 30;
 	public bool Mirror = false;
+	public int cameraID = 0;
 	
 	// Use this for initialization
 	void Start()
@@ -24,7 +25,7 @@ public class WebCamBehaviourScript : MonoBehaviour
 		}
 
 		// WebCamテクスチャを作成する
-		var webcamTexture = new WebCamTexture( Width, Height, FPS );
+		var webcamTexture = new WebCamTexture(devices[cameraID].name, Width, Height, FPS );
 		GetComponent<Renderer>().material.mainTexture = webcamTexture;
 		webcamTexture.Play();
 	}
