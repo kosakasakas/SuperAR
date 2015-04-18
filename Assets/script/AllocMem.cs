@@ -50,7 +50,7 @@ public class AllocMem : MonoBehaviour {
 		
 		text.Append ("Peak allocated: ");
 		text.Append ((peakAlloc/1000000F).ToString ("0"));
-		text.Append ("mb (last	collect: ");
+		text.Append ("mb (last collect: ");
 		text.Append ((collectAlloc/1000000F).ToString ("0"));
 		text.Append (" mb)\n");
 		
