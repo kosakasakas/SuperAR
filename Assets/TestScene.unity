@@ -1192,7 +1192,7 @@ MonoBehaviour:
   Height: 180
   FPS: 5
   Mirror: 1
-  cameraID: 1
+  cameraID: 0
 --- !u!1 &471604626 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100026, guid: 42ea6574ae7dd496a87a7527811fca25, type: 3}
@@ -1569,7 +1569,7 @@ MonoBehaviour:
   Height: 180
   FPS: 5
   Mirror: 0
-  cameraID: 1
+  cameraID: 0
 --- !u!1 &664582272 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100282, guid: 42ea6574ae7dd496a87a7527811fca25, type: 3}
